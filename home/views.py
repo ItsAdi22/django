@@ -9,7 +9,7 @@ def index(request):
         "name":"Aditya",
         "age":22
     }
-    messages.success(request,"this is a test message")
+    
     return render(request, "index.html",context)
 
 def about(request):
